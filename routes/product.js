@@ -89,7 +89,7 @@ router.get('/delete/:id', (req, res, next) => {
         }else{
             res.redirect('/products');
         }
-    });
-})
+    })
+});
 
 module.exports = router;
